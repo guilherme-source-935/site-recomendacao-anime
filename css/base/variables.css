@@ -1,0 +1,10 @@
+:root{
+    --cor-texto: #f5e6ea;
+    --cor-fundo: #150713;
+    --cor-primaria: #ffa0b1;
+    --cor-secundaria: #b98a9c;
+    --cor-destaque: #A0FFEE;
+    --fonte-ui: 'Montserrat', sans-serif;
+    --fonte-logo: 'Ubuntu', sans-serif;
+    --raio: 8px;
+}
