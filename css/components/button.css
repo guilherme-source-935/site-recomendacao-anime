@@ -1,0 +1,17 @@
+.btn{
+    font-family: var(--fonte-ui);
+    color: var(--cor-texto);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 24px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 18px;
+    border: 1px solid var(--cor-secundaria);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: var(--cor-destaque);
+    border-color: (var(--cor-destaque));
+    color: var(--cor-fundo);
+}

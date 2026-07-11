@@ -1,0 +1,26 @@
+.descricao{
+    display: flex;
+    text-align: center;
+    padding: 115px 250px;
+    justify-content: space-evenly;
+}
+
+.descricao-container{
+    width: 33.3%;
+    padding: 20px;
+}
+
+.descricao-container i{
+    font-size: 4em;
+    color: var(--cor-primaria);
+    transition: color 0.3s ease-in-out;
+}
+
+.descricao-container i:hover{
+    color: var(--cor-destaque);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.descricao-container h2{
+    padding: 10px;
+}

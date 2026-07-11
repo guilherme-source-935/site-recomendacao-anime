@@ -1,0 +1,14 @@
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 48px;
+    align-items: start;
+    padding: 86px 146px;
+}
+
+.contato-forms{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    align-content: start;
+}

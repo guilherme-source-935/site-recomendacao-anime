@@ -3,7 +3,15 @@
 @import "layout/grid.css";
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/hero.css";
+@import "layout/novidades.css";
+@import "layout/descricao.css";
+@import "layout/contato.css";
+@import "layout/cta.css";
 @import "components/form.css";
+@import "components/button.css";
+@import "components/logo.css";
+@import "components/carousel.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
