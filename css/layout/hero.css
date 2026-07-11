@@ -1,0 +1,31 @@
+.hero{
+    padding-bottom: 200px;
+}
+
+.hero-texto h1{
+    font-size: 45px;
+    padding-bottom: 74px;
+}
+.hero-texto p{
+    font-size: 28px;
+    padding-bottom: 52px;
+}
+.btn-hero{
+    font-family: var(--fonte-ui);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: transparent;
+    color: var(--cor-texto);
+    cursor: pointer;
+    border-width: 1px;
+    border-color: var(--cor-texto);
+    border-radius: 18px;
+    width: 270px;
+    height: 60px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out
+}
+.btn-hero:hover{
+    background-color: var(--cor-texto);
+    color: var(--cor-fundo);
+}

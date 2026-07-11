@@ -1,0 +1,27 @@
+.rodape{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    background-color: #281A26;
+    padding: 32px;
+    font-size: 14px;
+    border-top: 1px solid var(--cor-secundaria);
+    justify-items: center;
+}
+
+.rodape h3{
+    margin-bottom: 10px;
+}
+
+.coluna a{
+    display: block;
+    font-family: var(--fonte-ui);
+    color: var(--cor-texto);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 6px;
+}
+
+.coluna a:hover{
+    color: var(--cor-destaque);
+}

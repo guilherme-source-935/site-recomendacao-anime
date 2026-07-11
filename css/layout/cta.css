@@ -1,0 +1,16 @@
+.cta {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.cta h2{
+    font-size: 40px;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+
+.cta .btn {
+    margin: 50px 75px 20px auto;
+}

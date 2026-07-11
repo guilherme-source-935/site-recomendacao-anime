@@ -1,0 +1,24 @@
+.cabecalho-landing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #281A26;
+    border-bottom: 1px solid var(--cor-secundaria);
+    padding: 16px 98px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navegacao{
+    display: flex;
+    gap: 30px;
+}
+.navegacao a{
+    font-family: var(--fonte-ui);
+    color: var(--cor-texto);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+.navegacao a:hover{
+    color: var(--cor-destaque);
+}

@@ -1,4 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
+* { 
+margin: 0; 
+padding: 0;
+box-sizing: border-box; 
+}
+
+body {
+    font-family: var(--fonte-ui);
+    color: var(--cor-texto);
+    background: var(--cor-fundo);
+    box-sizing: border-box;
 }

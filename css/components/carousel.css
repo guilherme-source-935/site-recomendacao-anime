@@ -1,0 +1,42 @@
+.novidades .carousel {
+    position: relative;
+}
+
+.carousel-lista {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* hide scrollbar, optional */
+}
+.carousel-lista::-webkit-scrollbar { display: none; }
+
+.carousel-pagina {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5em;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.slide-btn {
+    display: inline-block;
+    background-color: #bbb;
+    border-radius: 50%;
+    border: .2rem solid #d38800;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.slide-btn:hover,
+.slide-btn:focus {
+    background-color: #308d46;
+}
