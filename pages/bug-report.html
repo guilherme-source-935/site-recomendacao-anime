@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Bugs</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../js/components/header.js"></script>
+    <script src="../js/components/footer.js"></script>
+    <script src="../js/components/button.js" defer></script>
+</head>
+<body>
+    <site-header></site-header>
+    <main class="forms-principal">
+        <form action="#" class="form-bugs forms-geral">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+            <br>
+            <label for="bugs">Qual o tipo do erro?</label>
+            <select name="tipo-bug" id="tipo-bug">
+                <option value="">-------Selecione o erro encontrado-------</option>
+                <option value="visual">Problemas com os visuais/layout</option>
+                <option value="performance">Problemas com a performance</option>
+                <option value="seguranca">Problemas com a seguranca/privacidade</option>
+                <option value="outro">Outro tipo de erro(descreva abaixo)</option>
+            </select>
+            <br>
+            <label for="mensagem">Conte-nos detalhes do erro encontrado</label>
+            <textarea name="mensagem-bug" id="mensagem-bug" rows="5" cols="40"></textarea>
+            <button type="submit" class="btn enviar">Enviar</button>
+        </form>
+        
+    </main>
+    <site-footer></site-footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.forms-principal{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+select, input, textarea{
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+
+.forms-geral{
+    border: 2px solid var(--cor-primaria);
+    padding: 32px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: var(--raio);
+}
+
+.forms-geral label{
+    font-size: 13px;
+    margin: 14px 0 4px;
+    display: block;
+}
+
+.forms-geral input{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid var(--cor-secundaria);
+    background: var(--cor-fundo);
+    border-radius: var(--raio);
+    transition: border-color 0.3s ease;
+}
+
+.form-bugs select{
+    background: var(--cor-fundo);
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-texto);
+    border-radius: var(--raio);
+    transition: border-color 0.3s ease;
+}
+
+.forms-geral textarea{
+    background: var(--cor-fundo);
+    border: 1px solid var(--cor-secundaria);
+    transition: border-color 0.3s ease;
+    border-radius: var(--raio);
+}
+
+.forms-bugs .btn{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.form-sugestoes .btn{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+select:focus, input:focus, textarea:focus{
+    border-color: var(--cor-destaque);
+    transition: border-color 0.3s ease;
+}

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="../js/components/header.js"></script>
     <script src="../js/components/footer.js"></script>
-    <script src="../js/components/carousel.js" defer></script>
+    <script src="../js/components/carousel.js"></script>
+    <script src="../js/components/button.js" defer></script>
 </head>
 <body>
 
@@ -19,7 +20,7 @@
             <div class="hero-texto">
                 <h1>Descubra animes que valem a pena serem assistidos,<br> e outros que nem tanto...</h1>
                 <p>Junte-se ao Yinghua na quest de assistir todas as animações japonesas!</p>
-                <button class="btn-hero" id="botao-cadastro-hero">Cadastre-se</button>
+                <button class="btn-hero redirect" value="cadastro">Cadastre-se</button>
             </div>
             <div class="carousel">
                 <button class="slide-btn slide-btn-1"></button>
@@ -118,13 +119,13 @@
                 <div class="contato-container">
                     <p>Encontrou um bug?</p>
                     <div class="container-interno">
-                        <button class="btn" id="botao-contato">Reporte aqui</button>
+                        <button class="btn redirect" value="contato">Reporte aqui</button>
                     </div>
                 </div>
                 <div class="contato-container">
                     <p>Quer deixar alguma sugestão?</p>
                     <div class="container-interno">
-                        <button class="btn" id="botao-sugestao">Mande para nós</button>
+                        <button class="btn redirect" value="sugestao">Mande para nós</button>
                     </div>
                 </div>
             </div>
@@ -132,8 +133,8 @@
         <section class="cta">
             <h2>Descubra seu Próximo Anime Favorito<br> com Yinghua.</h2>
             <div class="cta-buttons">
-                <button class="btn" id="botao-cadastro-cta">Cadastre-se</button>
-                <button class="btn" id="botao-login-cta">Login</button>
+                <button class="btn redirect" value="cadastro">Cadastre-se</button>
+                <button class="btn redirect" value="login">Login</button>
             </div>
         </section>
     </main>
