@@ -2,14 +2,6 @@
     padding-bottom: 200px;
 }
 
-.hero-texto h1{
-    font-size: 45px;
-    padding-bottom: 74px;
-}
-.hero-texto p{
-    font-size: 28px;
-    padding-bottom: 52px;
-}
 .btn-hero{
     font-family: var(--fonte-ui);
     font-size: 24px;
