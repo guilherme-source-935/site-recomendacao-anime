@@ -22,13 +22,6 @@
     text-align: center;
 }
 
-.contato-container p{
-    font-size: 32px;
-    border-bottom: 2px solid var(--cor-secundaria);
-    border-width: 100%;
-    padding: 15px;
-}
-
 .container-interno{
     padding: 20px;
 }

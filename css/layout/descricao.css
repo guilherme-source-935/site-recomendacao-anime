@@ -10,12 +10,6 @@
     padding: 20px;
 }
 
-.descricao-container i{
-    font-size: 4em;
-    color: var(--cor-primaria);
-    transition: color 0.3s ease-in-out;
-}
-
 .descricao-container i:hover{
     color: var(--cor-destaque);
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;

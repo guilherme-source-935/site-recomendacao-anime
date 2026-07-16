@@ -10,3 +10,23 @@ body {
     background: var(--cor-fundo);
     box-sizing: border-box;
 }
+
+.hero-texto h1{
+    font-size: 45px;
+    padding-bottom: 74px;
+}
+.hero-texto p{
+    font-size: 28px;
+    padding-bottom: 52px;
+}
+.descricao-container i{
+    font-size: 4em;
+    color: var(--cor-primaria);
+    transition: color 0.3s ease-in-out;
+}
+.contato-container p{
+    font-size: 32px;
+    border-bottom: 2px solid var(--cor-secundaria);
+    border-width: 100%;
+    padding: 15px;
+}
