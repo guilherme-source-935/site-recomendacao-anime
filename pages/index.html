@@ -9,8 +9,9 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../js/components/header.js"></script>
     <script src="../js/components/footer.js"></script>
-    <script src="../js/components/carousel.js" defer></script>
+    <script src="../js/services/anilist.js" defer></script>
     <script src="../js/components/button.js" defer></script>
+    <script src="../js/components/carousel.js" defer></script>
 </head>
 <body>
 
@@ -24,36 +25,7 @@
                 <button class="btn-hero redirect" value="cadastro">Cadastre-se</button>
             </div>
             <div id="carousel-hero" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active card">
-                        <img src="../assets/138006l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/149307l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/93520l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/128382l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-            </div>
+                <div id="carousel-hero-inner" class="carousel-inner"></div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-hero" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Voltar</span>
@@ -63,6 +35,7 @@
                     <span class="visually-hidden">Próximo</span>
                 </button>
             </div>
+            </div>
         </section>
         <section class="novidades">
             <div>
@@ -70,50 +43,8 @@
                 <p>Nós notificamos quando um novo anime for lançado aos streamings!</p>
             </div>
             <div id="carousel-novidades" class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active card">
-                        <img src="../assets/158340l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/156346l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/155236l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/151236l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/149752l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active card">
-                        <img src="../assets/158564l.jpg" class="d-block w-100" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-titulo">Anime Titulo</h5>
-                            <p class="card-texto">Generos</p>
-                        </div>
-                    </div>
-            </div>
+                <div id="carousel-novidades-inner" class="carousel-inner">
+                </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-novidades" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Voltar</span>
