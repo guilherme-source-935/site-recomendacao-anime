@@ -22,7 +22,7 @@
     color: var(--cor-fundo);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
     .hero {
         grid-template-columns: 1fr;
         padding: 40px 20px;

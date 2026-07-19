@@ -26,8 +26,9 @@
     color: var(--cor-destaque);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
     .rodape {
         padding: 24px 16px;
+        margin-top: auto
     }
 }

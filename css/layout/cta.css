@@ -15,7 +15,7 @@
     margin: 50px 75px 20px auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
     .cta {
         padding: 40px 20px;
     }

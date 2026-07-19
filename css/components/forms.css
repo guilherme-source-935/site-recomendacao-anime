@@ -1,6 +1,7 @@
 .forms-principal{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 40px 0;
 }
 
@@ -63,4 +64,84 @@ select, input, textarea{
 select:focus, input:focus, textarea:focus{
     border-color: var(--cor-destaque);
     transition: border-color 0.3s ease;
+}
+
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+@media(max-width: 767px){
+    .forms-principal{
+        align-items: center;
+        min-height: 100%;
+        padding: 20px;
+    }
+    .forms-geral{
+        padding: 16px;
+        max-width: 320px;
+    }
+    .forms-geral label{
+        font-size: 10px;
+        margin: 7px 0 2px;
+    }
+    .forms-geral input{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .forms-bugs .btn{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .form-sugestoes .btn{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .forms-geral textarea{
+        width: 100%;
+    }
+    .forms-geral select{
+        width: 100%;
+        font-size: 8px;
+    }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+    .forms-principal{
+        padding: 30px;
+    }
+    .forms-geral{
+        padding: 24px;
+        max-width: 420px;
+    }
+    .forms-geral label{
+        font-size: 13px;
+        margin: 10px 0 4px;
+    }
+    .forms-geral input{
+        font-size: 14px;
+        padding: 8px;
+    }
+    .forms-geral textarea{
+        width: 100%;
+    }
+    .forms-geral select{
+        width: 100%;
+        font-size: 8px;
+    }
+    .forms-bugs .btn{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .form-sugestoes .btn{
+        font-size: 13px;
+        margin-top: 8px;
+    }
 }
