@@ -1,0 +1,30 @@
+.descricao{
+    display: flex;
+    text-align: center;
+    padding: 115px 250px;
+    justify-content: space-evenly;
+}
+
+.descricao-container{
+    width: 33.3%;
+    padding: 20px;
+}
+
+.descricao-container i:hover{
+    color: var(--cor-destaque);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.descricao-container h2{
+    padding: 10px;
+}
+
+@media (max-width: 1025px) {
+    .descricao {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    .descricao-container {
+        width: 100%;
+    }
+}

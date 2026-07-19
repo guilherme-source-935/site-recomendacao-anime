@@ -1,0 +1,15 @@
+.novidades{
+    align-items: center;
+    padding: 86px 128px;
+    text-align: center;
+}
+
+.novidades p{
+    padding-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+    .novidades {
+        padding: 40px 20px;
+    }
+}

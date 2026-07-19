@@ -1,0 +1,137 @@
+.forms-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+select, input, textarea{
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+
+.forms-geral{
+    border: 2px solid var(--cor-primaria);
+    padding: 32px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: var(--raio);
+}
+
+.forms-geral label{
+    font-size: 13px;
+    margin: 14px 0 4px;
+    display: block;
+}
+
+.forms-geral input{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid var(--cor-secundaria);
+    background: var(--cor-fundo);
+    border-radius: var(--raio);
+    transition: border-color 0.3s ease;
+}
+
+.forms-geral .btn{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 33%;
+}
+
+.form-bugs select{
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    background: var(--cor-fundo);
+    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-texto);
+    border-radius: var(--raio);
+    transition: border-color 0.3s ease;
+}
+
+.forms-geral textarea{
+    width: 100%;
+    background: var(--cor-fundo);
+    border: 1px solid var(--cor-secundaria);
+    transition: border-color 0.3s ease;
+    border-radius: var(--raio);
+}
+
+select:focus, input:focus, textarea:focus{
+    border-color: var(--cor-destaque);
+    transition: border-color 0.3s ease;
+}
+
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+@media(max-width: 767px){
+    .forms-principal{
+        align-items: center;
+        min-height: 100%;
+        padding: 20px;
+    }
+    .forms-geral{
+        padding: 16px;
+        max-width: 320px;
+    }
+    .forms-geral label{
+        font-size: 10px;
+        margin: 7px 0 2px;
+    }
+    .forms-geral input{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .forms-geral .btn{
+        font-size: 10px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .forms-geral select{
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
+    .forms-principal{
+        padding: 30px;
+    }
+    .forms-geral{
+        padding: 24px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .forms-geral label{
+        font-size: 13px;
+        margin: 10px 0 4px;
+    }
+    .forms-geral input{
+        font-size: 14px;
+        padding: 8px;
+    }
+    .forms-geral select{
+        font-size: 14px;
+        padding: 8px;
+    }
+    .forms-geral .btn{
+        font-size: 10px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+}

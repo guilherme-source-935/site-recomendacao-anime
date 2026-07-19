@@ -1,0 +1,40 @@
+.contato{
+    text-align: center;
+    padding: 50px;
+}
+
+.contato-forms{
+    padding: 30px 45px;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contato-forms .btn{
+    width: 95%;
+}
+
+.contato-container{
+    border: 2px solid var(--cor-secundaria);
+    border-radius: var(--raio);
+    text-align: center;
+}
+
+.container-interno{
+    padding: 20px;
+}
+
+@media (max-width: 1025px) {
+    .contato {
+        padding: 20px;
+    }
+    .contato-forms {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .contato-forms .btn {
+        width: 100%;
+    }
+}

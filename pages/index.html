@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Yinghua</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/components/header.js"></script>
+    <script src="../js/components/footer.js"></script>
+    <script src="../js/services/anilist.js" defer></script>
+    <script src="../js/components/button.js" defer></script>
+    <script src="../js/components/carousel.js" defer></script>
+</head>
+<body>
+
+    <site-header></site-header>
+
+    <main class="principal">
+        <section class="hero">
+            <div class="hero-texto">
+                <h1>Descubra animes que valem a pena serem assistidos,<br> e outros que nem tanto...</h1>
+                <p>Junte-se ao Yinghua na quest de assistir todas as animações japonesas!</p>
+                <button class="btn-hero redirect" value="cadastro">Cadastre-se</button>
+            </div>
+            <div id="carousel-hero" class="carousel slide" data-bs-ride="carousel">
+                <div id="carousel-hero-inner" class="carousel-inner"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-hero" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Voltar</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-hero" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+            </div>
+        </section>
+        <section class="novidades">
+            <div>
+                <h2>Novidades da Temporada</h2>
+                <p>Nós notificamos quando um novo anime for lançado aos streamings!</p>
+            </div>
+            <div id="carousel-novidades" class="carousel">
+                <div id="carousel-novidades-inner" class="carousel-inner">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-novidades" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Voltar</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-novidades" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+        <section class="descricao">
+            <div class="descricao-container">
+                <i class="bi bi-tv"></i>
+                <h2>Descubra<br> Animes Novos.</h2>
+            </div>
+            <div class="descricao-container">
+                <i class="bi bi-bookmark-heart"></i>
+                <h2>Salve<br> os Seus Animes Favoritos.</h2>
+            </div>
+            <div class="descricao-container">
+                <i class="bi bi-bullseye"></i>
+                <h2>Receba<br> Recomendações Personalizadas.</h2>
+            </div>
+        </section>
+        <section class="contato">
+            <h2>Entre em Contato Conosco</h2>
+            <div class="contato-forms">
+                <div class="contato-container">
+                    <p>Encontrou um bug?</p>
+                    <div class="container-interno">
+                        <button class="btn redirect" value="contato">Reporte aqui</button>
+                    </div>
+                </div>
+                <div class="contato-container">
+                    <p>Quer deixar alguma sugestão?</p>
+                    <div class="container-interno">
+                        <button class="btn redirect" value="sugestao">Mande para nós</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <h2>Descubra seu Próximo Anime Favorito<br> com Yinghua.</h2>
+            <div class="cta-buttons">
+                <button class="btn redirect" value="cadastro">Cadastre-se</button>
+                <button class="btn redirect" value="login">Login</button>
+            </div>
+        </section>
+    </main>
+
+    <site-footer></site-footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
