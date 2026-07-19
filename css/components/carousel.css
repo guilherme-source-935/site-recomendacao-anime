@@ -26,6 +26,10 @@
     min-height: 700px
 }
 
+.novidades .carousel-item {
+    display: block !important;
+}
+
 @media (min-width: 768px) {
     .novidades .carousel-inner {
         display: flex;
@@ -34,5 +38,29 @@
         margin-right: 0;
         flex: 0 0 18.5%;
         display: block;
+    }
+    .card-titulo{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        line-clamp: 3; 
+        -webkit-box-orient: vertical;
+    }
+}
+
+@media (max-width: 767px){
+    .novidades .carousel-inner {
+        display: flex;
+    }
+    .novidades .carousel-item {
+        margin-right: 0;
+        flex: 0 0 99.6%;
+    }
+    .card-titulo{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2; 
+        -webkit-box-orient: vertical;
     }
 }

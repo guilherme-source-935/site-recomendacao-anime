@@ -7,3 +7,9 @@
 .novidades p{
     padding-bottom: 5px;
 }
+
+@media (max-width: 767px) {
+    .novidades {
+        padding: 40px 20px;
+    }
+}

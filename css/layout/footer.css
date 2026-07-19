@@ -25,3 +25,9 @@
 .coluna a:hover{
     color: var(--cor-destaque);
 }
+
+@media (max-width: 767px) {
+    .rodape {
+        padding: 24px 16px;
+    }
+}
