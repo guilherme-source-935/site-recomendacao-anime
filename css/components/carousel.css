@@ -30,7 +30,7 @@
     display: block !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1026px) {
     .novidades .carousel-inner {
         display: flex;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 1025px){
     .novidades .carousel-inner {
         display: flex;
     }

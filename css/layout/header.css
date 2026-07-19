@@ -23,14 +23,13 @@
     color: var(--cor-destaque);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
     .cabecalho-landing {
         padding: 16px;
     }
     body {
         overflow-x: hidden;
     }
-
     img, video {
         max-width: 100%;
         height: auto;

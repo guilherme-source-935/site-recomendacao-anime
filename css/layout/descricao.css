@@ -19,7 +19,7 @@
     padding: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1025px) {
     .descricao {
         flex-direction: column;
         padding: 40px 20px;
