@@ -22,3 +22,17 @@
 .navegacao a:hover{
     color: var(--cor-destaque);
 }
+
+@media (max-width: 767px) {
+    .cabecalho-landing {
+        padding: 16px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+}

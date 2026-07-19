@@ -18,3 +18,13 @@
 .descricao-container h2{
     padding: 10px;
 }
+
+@media (max-width: 767px) {
+    .descricao {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    .descricao-container {
+        width: 100%;
+    }
+}
