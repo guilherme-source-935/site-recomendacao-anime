@@ -36,7 +36,17 @@ select, input, textarea{
     transition: border-color 0.3s ease;
 }
 
+.forms-geral .btn{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 33%;
+}
+
 .form-bugs select{
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
     background: var(--cor-fundo);
     border: 1px solid var(--cor-secundaria);
     color: var(--cor-texto);
@@ -45,20 +55,11 @@ select, input, textarea{
 }
 
 .forms-geral textarea{
+    width: 100%;
     background: var(--cor-fundo);
     border: 1px solid var(--cor-secundaria);
     transition: border-color 0.3s ease;
     border-radius: var(--raio);
-}
-
-.forms-bugs .btn{
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.form-sugestoes .btn{
-    font-size: 15px;
-    margin-top: 10px;
 }
 
 select:focus, input:focus, textarea:focus{
@@ -97,20 +98,14 @@ main {
         font-size: 10px;
         padding: 5px;
     }
-    .forms-bugs .btn{
+    .forms-geral .btn{
         font-size: 10px;
         margin-top: 5px;
-    }
-    .form-sugestoes .btn{
-        font-size: 10px;
-        margin-top: 5px;
-    }
-    .forms-geral textarea{
-        width: 100%;
+        padding: 5px;
     }
     .forms-geral select{
-        width: 100%;
-        font-size: 8px;
+        font-size: 10px;
+        padding: 5px;
     }
 }
 @media (max-width: 1025px) and (min-width: 768px) {
@@ -119,7 +114,8 @@ main {
     }
     .forms-geral{
         padding: 24px;
-        max-width: 420px;
+        max-width: 800px;
+        margin: 0 auto;
     }
     .forms-geral label{
         font-size: 13px;
@@ -129,19 +125,13 @@ main {
         font-size: 14px;
         padding: 8px;
     }
-    .forms-geral textarea{
-        width: 100%;
-    }
     .forms-geral select{
-        width: 100%;
-        font-size: 8px;
+        font-size: 14px;
+        padding: 8px;
     }
-    .forms-bugs .btn{
-        font-size: 16px;
-        margin-top: 8px;
-    }
-    .form-sugestoes .btn{
-        font-size: 13px;
-        margin-top: 8px;
+    .forms-geral .btn{
+        font-size: 10px;
+        margin-top: 5px;
+        padding: 5px;
     }
 }
