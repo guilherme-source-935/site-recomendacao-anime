@@ -60,6 +60,7 @@ select, input, textarea{
     border: 1px solid var(--cor-secundaria);
     transition: border-color 0.3s ease;
     border-radius: var(--raio);
+    padding: 8px;
 }
 
 select:focus, input:focus, textarea:focus{
