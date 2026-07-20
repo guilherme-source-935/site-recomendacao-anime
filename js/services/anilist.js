@@ -39,7 +39,7 @@ const query = `query (
             }
             genres
             coverImage{
-                large
+                extraLarge
             }
             averageScore
             season
@@ -82,7 +82,7 @@ function handleData(data){
     animeHeroFinal = animeHero.map(((anime, index) => {
         let animeHeroHtml = `
             <div class="carousel-item card ${index == 0 ? 'active' : ''}">
-                <img src="${anime.coverImage.large}" class="d-block w-100" alt="${anime.title.romaji}">
+                <img src="${anime.coverImage.extraLarge}" class="d-block w-100" alt="${anime.title.romaji}">
                 <div class="card-body">
                     <h5 class="card-titulo">${anime.title.romaji}</h5>
                     <p class="card-texto">${anime.genres.join(', ')}</p>
@@ -97,7 +97,7 @@ function handleData(data){
     let animeFinal = data.data.Page.media.map((anime, index) => {
         let animeHtml = `
             <div class="carousel-item card ${index == 0 ? 'active' : ''}">
-                <img src="${anime.coverImage.large}" class="d-block w-100" alt="${anime.title.romaji}">
+                <img src="${anime.coverImage.extraLarge}" class="d-block w-100" alt="${anime.title.romaji}">
                 <div class="card-body">
                     <h5 class="card-titulo">${anime.title.romaji}</h5>
                     <p class="card-texto">${anime.genres.join(', ')}</p>
